@@ -1,55 +1,92 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input{
+    flex: auto;
+}
 
 .topnav{
     display: flex;
-    -webkit-box-shadow: 2px 6px 5px -3px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 6px 5px -3px rgba(0,0,0,0.75);
-box-shadow: 2px 6px 5px -3px rgba(0,0,0,0.75);
-justify-content: space-between;
-align-items: center;
-}
-
-section {
-    margin-top: 20px;
-    height: 1000px;
+    flex: auto;
+    justify-content: space-between;
 }
 .left-items{
-    flex-grow:1;
+    justify-content: flex-start;
 }
 
 .central-items {
-    flex-grow: 2;
-    
+    display: flex;
+    justify-content: center;
+    flex:auto;
 }
-
-.central-items #search-input {
-width: 81%;
-}
-
-.central-items #button-input {
-    float: right;
-    border-right:none;
+#search-input{
+    flex:auto;
 }
 .right-items {
-    flex-grow: 1;
-    float: right;
+    justify-content: flex-end;
 }
 
-button {
-    padding: 0 20px;
-}
 aside {
-    width: 30%;
+    width:30%;
     padding-left: 10px;
-    margin-left: .5rem;
     float: right;
 }
-.video{
+#thumbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0%;
+}
+#thumbox-description{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#video{
     display: inline-block;
     width: fit-content;
     height: fit-content;
 }
 
+.video-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#video-uploader{
+    display: flex;
+    justify-content: flex-start;
+}
+.comment-filter{
+    display: flex;
+    justify-content: flex-start;
+}
+.add-comment{
+    display: flex;
+    justify-content: flex-start;
+}
+#comment-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.comment-box{
+    display: flex;
+    justify-content: flex-start;
+}
+#thumbs{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+}
 .content{
+    display: flex;
     justify-content: space-between;
+}
+#video-stats{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }

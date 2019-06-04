@@ -1,14 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Youtube Clon</title>
         <link rel="stylesheet" type="text/css" href="mystyle.css">
 
     </head>
@@ -18,56 +11,108 @@
                 <img src="images/burger.png">
                 <img src="images/logo.png">
             </div>
-
-
-           
-            
-                <div class="central-items">
+            <div class="central-items">
                     <input type="text" id="search-input" placeholder="Search">
-                    <input type="image" id="button-input" src="images/search.png">
-                </div>
-            
-       
+            </div>
+            <img src="images/search.png">
             <div class="right-items">
                 <img src="images/stream.png">
                 <img src="images/apps.png">
                 <img src="images/share.png">
                 <img src="images/notification.png">
-                <img src="images/user.png">
+                <img src="images/avatar.jpg">
             </div>
         </nav>
         <div id="content">
-            <main id="video">
-                <iframe height="315" width="560"src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-            </main>
+                <aside id= "sidebar">
+                    <div id= "thumbox">
+                        <img src="images/chellos.png">
+                        <h3 id="thumbox-description">See another video</h3>
+                        <p id="thumbox-description">Music videos</p>
+                        <p id="thumbox-description">9999 visualizations</p>
+                    </div>
+                    <div id= "thumbox">
+                        <img src="images/chellos.png">
+                        <h3 id="thumbox-description">See another video</h3>
+                        <p id="thumbox-description">Music videos</p>
+                        <p id="thumbox-description">9999 views</p>
+                    </div>
+                    <div id= "thumbox">
+                        <img src="images/chellos.png">
+                        <h3 id="thumbox-description">See another video</h3>
+                        <p id="thumbox-description">Music videos</p>
+                        <p id="thumbox-description">9999 views</p>
+                    </div>
+                    <div id= "thumbox">
+                        <img src="images/chellos.png">
+                        <h3 id="thumbox-description">See more videos here</h3>
+                        <p id="thumbox-description">Music videos</p>
+                        <p id="thumbox-description">9999 views</p>
+                    </div>
+                </aside>
+                <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/El9GSoOvcD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div id="video-title">
+                    <h1>Just listen to this MASTERPIECE</h1>
+                </div>
+                <div id="video-stats">
+                    <div>100000 views</div>
+                    <img src="images/socialicons.png">
+                </div>
+                <hr>
+                <div id="video-uploader">
+                    <img src="images/userthumbnail.png">
+                    <aside>
+                    <strong style="font-family: Arial, Helvetica, sans-serif">Uploader</strong>
+                    <p style="font-weight:lighter">Published on june 4th</p>
+                    </aside>
+                </div>
+                <div class="video-description">
+                    <p>This band is awesome, and so underrated, they should win a grammy and have a gig at the superbowl</p>
+                </div>
+                <hr>
+                <div class="comment-filter">
+                    <p>300 comments</p>
+                    <img src="images/sort.png">
+                    <p>SORT BY</p>
+                </div>
+                <div class="add-comment">
+                    <img src="images/avatar.jpg">
+                    <input type="text" placeholder="Add a comment">
+                </div>
+                <div id="comment-button">
+                    <button style="background-color:#065FD4; font-family:Arial, Helvetica, sans-serif">ADD</button>
+                </div>
+                <div class="comment-box">
+                    <div>
+                        <img src="images/user.png">
+                    </div>
+                    <div class="commentor">
+                        <strong>Commentor</strong>
+                        <p>Youre right, i just made myself a favor listening to this band!</p>
+                    </div>
+                    
+                </div>
+                <div id="thumbs">
+                    <img src="images/thumb-down.png">
+                    <p>REPLY</p>
+                </div>
+                <div class="comment-box">
+                    <div>
+                        <img src="images/user.png">
+                    </div>
+                    <div class="commentor">
+                        <strong>Commentor's twin</strong>
+                        <p>Also listen to Rush's la villa strangiato</p>
+                    </div>
+                </div>
+                <div id="thumbs">
+                    <img src="images/thumb-down.png">
+                    <p>REPLY</p>
+                </div>
 
-        <aside id= "sidebar">
-            <div id= "thumbox">
-                <img src="images/chellos.jpg">
-                <h3 id="thumbox-title">See more videos here</h3>
-                <p id="thumbox-description">Music videos</p>
-                <p id="thumbox-description">9999 visualizations</p>
-            </div>
-            <div id= "thumbox">
-                <img src="images/chellos.jpg">
-                <h3 id="thumbox-title">See more videos here</h3>
-                <p id="thumbox-description">Music videos</p>
-                <p id="thumbox-description">9999 visualizations</p>
-            </div>
-            <div id= "thumbox">
-                <img src="images/chellos.jpg">
-                <h3 id="thumbox-title">See more videos here</h3>
-                <p id="thumbox-description">Music videos</p>
-                <p id="thumbox-description">9999 visualizations</p>
-            </div>
-            <div id= "thumbox">
-                <img src="images/chellos.jpg">
-                <h3 id="thumbox-title">See more videos here</h3>
-                <p id="thumbox-description">Music videos</p>
-                <p id="thumbox-description">9999 visualizations</p>
-            </div>
-        </aside>
     </div>
-        <script src="" async defer></script>
+        
     </body>
 </html>
