@@ -129,11 +129,6 @@ aside {
 .commentor{
     font-family: Arial, Helvetica, sans-serif;
 }
-#thumbs{
-    display: flex;
-    justify-content: flex-start;
-    font-weight: 400;
-}
 .content{
     display: flex;
     justify-content: space-between;
