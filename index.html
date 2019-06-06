@@ -13,46 +13,57 @@
             </div>
             <div class="central-items">
                     <input type="text" id="search-input" placeholder="Search">
+                    <button id="search-button"></button>
             </div>
-            <img src="images/search.png">
             <div class="right-items">
                 <img src="images/stream.png">
                 <img src="images/apps.png">
                 <img src="images/share.png">
                 <img src="images/notification.png">
-                <img src="images/avatar.jpg">
+                <img class="avatar-image" src="images/avatar.jpg">
             </div>
         </nav>
-        <div id="content">
-                <aside id= "sidebar">
-                    <div id= "thumbox">
+        <br><br>
+        <div name="content">
+                <aside class= "sidebar">
+                    <div class= "thumbox">
                         <img src="images/chellos.png">
-                        <h3 id="thumbox-description">See another video</h3>
-                        <p id="thumbox-description">Music videos</p>
-                        <p id="thumbox-description">9999 visualizations</p>
+                        <div class="thumbox-text">
+                            <h3 class="thumbox-description">See another video</h3>
+                            <span>Music videos</span>
+                            <span>9999 visualizations</span>
+                        </div>
                     </div>
-                    <div id= "thumbox">
+                    <div class= "thumbox">
                         <img src="images/chellos.png">
-                        <h3 id="thumbox-description">See another video</h3>
-                        <p id="thumbox-description">Music videos</p>
-                        <p id="thumbox-description">9999 views</p>
+                        <div class="thumbox-text">
+                            <h3 class="thumbox-description">See another video</h3>
+                            <span>Music videos</span>
+                            <span>9999 views</span>
+                        </div>
                     </div>
-                    <div id= "thumbox">
+                    <div class= "thumbox">
                         <img src="images/chellos.png">
-                        <h3 id="thumbox-description">See another video</h3>
-                        <p id="thumbox-description">Music videos</p>
-                        <p id="thumbox-description">9999 views</p>
+                        <div class="thumbox-text">
+                            <h3 class="thumbox-description">See another video</h3>
+                            <span>Music videos</span>
+                            <span>9999 views</span>
+                        </div>
                     </div>
-                    <div id= "thumbox">
+                    <div class= "thumbox">
                         <img src="images/chellos.png">
-                        <h3 id="thumbox-description">See more videos here</h3>
-                        <p id="thumbox-description">Music videos</p>
-                        <p id="thumbox-description">9999 views</p>
+                        <div class="thumbox-text">
+                            <h3 class="thumbox-description">See more videos here</h3>
+                            <span>Music videos</span>
+                            <span>9999 views</span>
+                        </div>
                     </div>
                 </aside>
+            <main style="margin-left: 100px">
                 <div id="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/El9GSoOvcD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+            
                 <div id="video-title">
                     <h1>Just listen to this MASTERPIECE</h1>
                 </div>
@@ -61,28 +72,39 @@
                     <img src="images/socialicons.png">
                 </div>
                 <hr>
-                <div id="video-uploader">
-                    <img src="images/userthumbnail.png">
-                    <aside>
-                    <strong style="font-family: Arial, Helvetica, sans-serif">Uploader</strong>
-                    <p style="font-weight:lighter">Published on june 4th</p>
-                    </aside>
+                <div class="video-uploader">
+                    <div style="display:flex">
+                        <img src="images/userthumbnail.png">
+                        <aside style="display:flex; flex-direction:column; flex-grow: 1">
+                            <div>
+                                <strong style="font-family: Arial, Helvetica, sans-serif">Uploader</strong>
+                            </div>
+                            <div>
+                                <span>Published on june 4th</span>
+                            </div>        
+                        </aside>
+                    </div>
+                    <div class="right-items">
+                            <button id="subscribe">SUBSCRIBE</button>
+                    </div>
                 </div>
                 <div class="video-description">
                     <p>This band is awesome, and so underrated, they should win a grammy and have a gig at the superbowl</p>
                 </div>
+            
                 <hr>
+                <div>
                 <div class="comment-filter">
                     <p>300 comments</p>
                     <img src="images/sort.png">
                     <p>SORT BY</p>
                 </div>
                 <div class="add-comment">
-                    <img src="images/avatar.jpg">
+                    <img class="avatar-image" src="images/avatar.jpg">
                     <input type="text" placeholder="Add a comment">
                 </div>
-                <div id="comment-button">
-                    <button style="background-color:#065FD4; font-family:Arial, Helvetica, sans-serif">ADD</button>
+                <div style="display:flex; justify-content:flex-end">
+                    <button id="comment-button">COMMENT</button>
                 </div>
                 <div class="comment-box">
                     <div>
@@ -92,7 +114,7 @@
                         <strong>Commentor</strong>
                         <p>Youre right, i just made myself a favor listening to this band!</p>
                     </div>
-                    
+                </div>
                 </div>
                 <div id="thumbs">
                     <img src="images/thumb-down.png">
@@ -111,8 +133,11 @@
                     <img src="images/thumb-down.png">
                     <p>REPLY</p>
                 </div>
-
+            </main>    
     </div>
         
     </body>
+    <footer style="margin-bottom: 25px;">
+        
+    </footer>
 </html>

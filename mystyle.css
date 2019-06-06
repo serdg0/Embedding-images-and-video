@@ -11,6 +11,9 @@ h1{
 input{
     flex: auto;
 }
+span{
+    color: #767676;
+}
 
 .topnav{
     display: flex;
@@ -25,27 +28,47 @@ input{
     display: flex;
     justify-content: center;
     flex:auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 #search-input{
     flex:auto;
 }
+#search-button{
+    background-image: url(/images/search.png);
+    border-radius: 3px;
+    width: 46px;
+    height: 36px;
+}
 .right-items {
+    display: flex;
     justify-content: flex-end;
 }
 
 aside {
-    width:30%;
     padding-left: 10px;
     float: right;
 }
-#thumbox{
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+.thumbox{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 0%;
+    margin-bottom: 5px;
+}
+.thumbox-text{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 #thumbox-description{
-    margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
 #video{
@@ -57,9 +80,9 @@ aside {
 .video-title{
     font-family: Arial, Helvetica, sans-serif;
 }
-#video-uploader{
+.video-uploader{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .comment-filter{
     display: flex;
@@ -77,6 +100,29 @@ aside {
     display: flex;
     justify-content: flex-start;
 }
+.avatar-image{
+    border-radius: 50%;
+}
+#comment-button{
+    justify-content: flex-end;
+    background-color:#d9d9d9;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:lighter;
+	padding:14px 36px;
+    text-decoration:none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
 #thumbs{
     display: flex;
     justify-content: flex-start;
@@ -89,4 +135,16 @@ aside {
 #video-stats{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+}
+
+#subscribe{
+    background-color:#cd3323;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight: 500;
+	padding:10px 11px;
+    text-decoration:none;
 }
