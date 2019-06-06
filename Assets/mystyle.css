@@ -7,12 +7,15 @@ h1{
     font-size: 18px;
     font-weight: 400;
 }
-
+h4{
+    margin:0;
+}
 input{
     flex: auto;
 }
 span{
     color: #767676;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav{
@@ -37,7 +40,7 @@ span{
     flex:auto;
 }
 #search-button{
-    background-image: url(/images/search.png);
+    background-image: url("images/search.png");
     border-radius: 3px;
     width: 46px;
     height: 36px;
@@ -56,7 +59,7 @@ aside {
     flex-direction: column;
     justify-content: space-around;
     margin-left: 50px;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 .thumbox{
     display: flex;
@@ -67,6 +70,7 @@ aside {
 .thumbox-text{
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #thumbox-description{
     font-family: Arial, Helvetica, sans-serif;
@@ -111,7 +115,6 @@ aside {
 	border-radius:4px;
 	border:1px solid #dcdcdc;
 	display:inline-block;
-	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:17px;
@@ -122,6 +125,9 @@ aside {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+}
+.commentor{
+    font-family: Arial, Helvetica, sans-serif;
 }
 #thumbs{
     display: flex;
@@ -140,11 +146,17 @@ aside {
 #subscribe{
     background-color:#cd3323;
 	display:inline-block;
-	cursor:pointer;
 	color:#ffffff;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:14px;
 	font-weight: 500;
 	padding:10px 11px;
     text-decoration:none;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+.reply{
+    margin-left:15px;
+
 }
