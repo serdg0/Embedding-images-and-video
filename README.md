@@ -3,5 +3,5 @@ I made this project as a part of the Microverse Curriculum, to learn and work wi
 I learned a lot.
 I now know how important is to administrate the divs, and plan the elements of the whole webpage.
 Also how important is to plan every element of the webpage, and manipulate properly the semantic elements of the webpage.
-
+Click [here](https://serdg0.github.io/Embedding-images-and-video/) for a live view.
 Contributors: Me ;)
