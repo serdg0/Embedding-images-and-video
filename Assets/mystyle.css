@@ -64,7 +64,6 @@ aside {
 .thumbox{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     margin-bottom: 5px;
 }
 .thumbox-text{
@@ -90,11 +89,9 @@ aside {
 }
 .comment-filter{
     display: flex;
-    justify-content: flex-start;
 }
 .add-comment{
     display: flex;
-    justify-content: flex-start;
 }
 #comment-button{
     display: flex;
@@ -102,7 +99,7 @@ aside {
 }
 .comment-box{
     display: flex;
-    justify-content: flex-start;
+    margin-top:10px;
 }
 .avatar-image{
     border-radius: 50%;
